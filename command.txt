@@ -1,0 +1,20 @@
+This bug bot file is created by HAMZAxLEGEND that deploy with termux and 2gb private panel this was not deploy with public panel 
+
+TERMUX Command 
+apt update
+apt upgrade
+pkg update && pkg upgrade -y pkg install bash -y
+pkg install libwebp -y
+pkg install git -y
+pkg install nodejs -y
+pkg install ffmpeg -y
+pkg install wget -y
+pkg install imagemagick -y
+pkg install yarn
+termux-setup-storage
+cd /storage/emulated/0/hamzaxlegend
+yarn install 
+npm start 
+
+
+write these command line by line in termux 
