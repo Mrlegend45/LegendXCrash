@@ -17,27 +17,6 @@ This tool is made for **educational** and **testing purposes only**. Please use 
 ✅ More Advance Features
 ---
 
-## ⚙️ Installation (Termux)
-
-Copy and paste the commands below **one by one** in Termux:
-
-```bash
-apt update
-apt upgrade
-pkg update && pkg upgrade -y
-pkg install bash -y
-pkg install libwebp -y
-pkg install git -y
-pkg install nodejs -y
-pkg install ffmpeg -y
-pkg install wget -y
-pkg install imagemagick -y
-pkg install yarn
-termux-setup-storage
-cd /storage/emulated/0/hamzaxlegend   # Change to your project path
-yarn install
-npm start
-
 ---
 
 ## ⚠️ Disclaimer
@@ -63,6 +42,29 @@ Watch full setup & usage guide here:
 - 📷 **WhatsApp**: [Join Group](https://chat.whatsapp.com/D1QVjlWubfc3KEgvp9GyjB)  
 - 🌐 **Website**: [mrlegendhub.blogspot.com](https://mrlegendhub.blogspot.com)
 
+
+
+## ⚙️ Installation (Termux)
+
+Copy and paste the commands below **one by one** in Termux:
+
+```bash
+apt update
+apt upgrade
+pkg update && pkg upgrade -y
+pkg install bash -y
+pkg install libwebp -y
+pkg install git -y
+pkg install nodejs -y
+pkg install ffmpeg -y
+pkg install wget -y
+pkg install imagemagick -y
+pkg install yarn
+termux-setup-storage
+cd /storage/emulated/0/hamzaxlegend   # Change to your project path
+yarn install
+npm start
+
 ---
 
 ## 🙌 Support & Contribute
@@ -76,4 +78,3 @@ If you find this project useful:
 ---
 
 > Made with ❤️ by **Mr Legend Hub**
-
